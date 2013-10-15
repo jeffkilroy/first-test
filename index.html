@@ -3,17 +3,38 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>First Test - Home</title>
+<style>
+body{
+	background-color:#DDD;
+	font-family:Arial, Helvetica, sans-serif;
+}
+p{
+	background-color:#FF0000;
+	font-size:19px;
+}
+.greenbox{
+	background-color:#060;
+}
+#header{
+	background-color:#444;
+}
+</style>
 </head>
 
 <body>
 <div id="header">
   <h1>First Test</h1>
+  <ul>
+    <li class="greenbox"><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="greenbox">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
 </div>
 <div id="content">
   <h2>Welcome to the website!</h2>
   <p>This is a <strong>chunk of text</strong> in a paragraph</p>
-  <p><em>Text</em> in the <strong>middle</strong></p>
-  <h2>Here is some more information</h2>
+  <p class="greenbox"><em>Text</em> in the <strong>middle</strong></p>
+  <h2 class="greenbox">Here is some more information</h2>
   <p>This is another paragraph</p>
 </div>
 <div id="footer">
